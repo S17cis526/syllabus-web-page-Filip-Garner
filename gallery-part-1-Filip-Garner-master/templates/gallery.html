@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+ <title><%= context.title %></title>
+ <link href="gallery.css" rel="stylesheet" type="text/css"
+</head>
+<body>
+<h1 id="gallery-tittle"><%= context.title %></h1>
+ <form id="gallery-title-edit" method="GET" action="">
+  <input type="text" name="title">
+  <input type="submit" name="Change Gallery Title">
+ </form>
+  <%= context.imagetags %>
+ <form id="image-upload-form" action="" method="POST" enctype="multipart/form-data">
+  <ht>Upload Image</h2>
+  <label for="image">
+   Image:
+   <input type="file" name="image">
+  </label>
+  <br>
+  <input type="submit" name="Upload image">
+ </form>
+ <script src="gallery.js"></script>
+</body>
+</html>

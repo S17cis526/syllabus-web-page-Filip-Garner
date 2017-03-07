@@ -1,0 +1,22 @@
+img {
+  width: 250px;
+}
+
+#gallery-title{
+	cursor: pointer;
+}
+
+#gallery-title-edit{
+	display: none;
+}
+
+#image-upload-form{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	border:2px solid red;
+	border-radius:5px;
+	background-color: pink;
+	padding: 10px;
+	
+}

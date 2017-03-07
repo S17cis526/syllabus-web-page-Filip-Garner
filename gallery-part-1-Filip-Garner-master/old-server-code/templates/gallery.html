@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+ <title><%= title %></title>
+ <link href="gallery.css" rel="stylesheet" type="text/css"
+</head>
+<body>
+<h1><%= title %></h1>
+ <form method="GET" action="">
+  <input type="text" name="title">
+  <input type="submit" name="Change Gallery Title">
+ </form>
+  <%= imagetags %>
+ <form action="" method="POST" enctype="multipart/form-data">
+  <input type="file" name="image">
+  <input type="submit" name="Upload image">
+ </form>
+<body>
